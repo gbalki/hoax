@@ -1,1 +1,1 @@
-# hoax
+# hoaxify-spring-boot
