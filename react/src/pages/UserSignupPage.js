@@ -36,7 +36,7 @@ const UserSignupPage = (props) => {
             password
         };
         try {
-            dispatch(signupHandler(body));
+            await dispatch(signupHandler(body));
             push('/');
         } catch (error) {
             if (error.response.data.validationErrors) {
